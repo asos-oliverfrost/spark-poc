@@ -78,18 +78,23 @@ pytest
 
      1. Use this folder path on DBFS ("dbfs://FileStore/tables/) to upload the input data.
 
-     2. Create folders and Upload input files eg: "/FileStore/tables/asos_data/movies/20220306/movies.csv"
+     2. Create folders and Upload input files.
+        eg: "/FileStore/tables/asos_data/movies/20220306/movies.csv"
      
    ##### * Import Notebooks on Databricks Workspace.
 
 
-      1. Import the Notebooks from Github Data Ingestion folder and Util folder into Databricks Workspace.
+      1. Import the Notebooks from Github Data Ingestion folder and Util folder
+         into Databricks Workspace.
 
-      2. "Run All" On the notebooks, Since its streaming, Once more data added to the input data automatically it picks ups and Process the new data.
+      2. "Run All" On the notebooks, Since its streaming, Once more data added to the input data
+          automatically it picks ups and Process the new data.
 
-      3. To verify Output, Output folder can be found dbfs eg: "dbfs:/FileStore/tables/asos_delta_std/movies/"
+      3. To verify Output, Output folder can be found dbfs.
+          eg: "dbfs:/FileStore/tables/asos_delta_std/movies/"
 
-      4. Checkpoint folder will be available on dbfs eg: "dbfs:/FileStore/tables/asos_delta_std/movies_checkpoint"
+      4. Checkpoint folder will be available on dbfs.
+         eg: "dbfs:/FileStore/tables/asos_delta_std/movies_checkpoint"
 <hr>
 
 ##Contact
