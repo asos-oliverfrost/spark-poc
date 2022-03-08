@@ -3,9 +3,6 @@
 Building Data Ingestion and Data Transformaton for Movies Lens Dataset using Pyspark and Databricks Notebook to process the data in a Lamba
 Architecture which comprises of both Batch and Streaming.Pipeline is divided into staging layer does the Data Ingestion
 and Transformation for processing the analysis on the data.
-
-<hr>
-
 <hr>
 
 ## Table of contents
@@ -16,20 +13,21 @@ and Transformation for processing the analysis on the data.
 <hr>
 
 ## Installation
-
 Use any IDE like PYCHARM or VSCODE. Pycharm used here.
 1. Create a Virtual Environment and Install the packages. 
-...
-pip install pyspark
-...
 
-...
+```
+pip install pyspark
+```
+
+```
 pip install pytest
-...
+```
+<hr>
 
 ## Building and Running this Pyspark Project Locally
  #### Project Structure
-``bash
+```
 spark-poc/
  |-- data-ingestion/
  |   |-- process_movie_data.ipynb
@@ -58,25 +56,34 @@ spark-poc/
  |   |-- test_utils.py/
  |   |-- utils.ipynb/
  |   |-- utils.py
+```
 
-1. Run the Pytest on this project to see the unit test results.
-...
+1. Run the Pytest on this project terminal to see the unit test results.
+
+```
 pytest
-...
+```
+<hr>
 
 ##PySpark Databricks Notebooks
-1. View the Databricks Notebooks with file format "ipynb" on Github to see the Code and Results already ran.
 
-2. To run Data Ingestion on Databricks.
+#### View the Databricks Notebooks on Github
 
-   1. Import data into Databricks Workspace.
-      1. Use this folder path on DBFS ("dbfs://FileStore/tables/) to upload the input data.
-      2. Create folders and Upload input files eg: "/FileStore/tables/asos_data/movies/20220306/movies.csv"
-   2. Import Notebooks on Databricks Workspace. 
+* Click on "ipynb" files on Github to see the Code and Results already ran.
+
+#### To run Data Ingestion on Databricks.
+
+   * Import data into Databricks Workspace.
+     
+      2. Use this folder path on DBFS ("dbfs://FileStore/tables/) to upload the input data.
+      3. Create folders and Upload input files eg: "/FileStore/tables/asos_data/movies/20220306/movies.csv"
+     
+   * Import Notebooks on Databricks Workspace. 
       1. Import the Notebooks from Github Data Ingestion folder and Util folder into Databricks Workspace.
       2. "Run All" On the notebooks, Since its streaming, Once more data added to the input data automatically it picks ups and Process the new data.
       3. To verify Output, Output folder can be found dbfs eg: "dbfs:/FileStore/tables/asos_delta_std/movies/"
       4. Checkpoint folder will be available on dbfs eg: "dbfs:/FileStore/tables/asos_delta_std/movies_checkpoint"
+<hr>
 
 ##Contact
 Created by @Jawahar - feel free to contact me!
