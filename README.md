@@ -7,9 +7,10 @@ and Transformation for processing the analysis on the data.
 
 ## Table of contents
 * [Installation](#Installation)
-* [Building and Running this Pyspark Project Locally](#Building and Runnig this Pyspark Project Locally)
-* [PySpark Databricks Notebooks](#PySpark Databricks Notebooks)
+* [Building and Running this Pyspark Project Locally](#Build and Run Pyspark locally)
+* [PySpark Databricks Notebooks](#PySpark Databricks)
 * [Contact](#Contact)
+
 <hr>
 
 ## Installation
