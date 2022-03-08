@@ -63,7 +63,7 @@ spark-poc/
 1. Run the Pytest on this project terminal to see the unit test results.
 
 ```
-pytest
+pytest -v
 ```
 <hr>
 
