@@ -7,8 +7,8 @@ and Transformation for processing the analysis on the data.
 
 ## Table of contents
 * [Installation](#Installation)
-* [Build and Run Pyspark on Local Env](#Build and Run Pyspark on Local Env)
-* [Pyspark Databricks](#Pyspark Databricks)
+* [PysparkLocal](#PysparkLocal)
+* [PysparkDatabricks](#PysparkDatabricks)
 * [Contact](#Contact)
 
 <hr>
@@ -27,7 +27,7 @@ pip install pytest
 ```
 <hr>
 
-## Build and Run Pyspark on Local Env
+## PysparkLocal
  #### Project Structure
 ```
 spark-poc/
@@ -67,7 +67,7 @@ pytest -v
 ```
 <hr>
 
-## PySpark Databricks
+## PysparkDatabricks
 
 #### View the Databricks Notebooks on Github
 
