@@ -73,7 +73,7 @@ pytest
 
 #### To run Data Ingestion on Databricks.
 
-   ##### * Import data into Databricks Workspace.
+   ##### • Import data into Databricks Workspace.
 
 
      1. Use this folder path on DBFS ("dbfs://FileStore/tables/) to upload the input data.
@@ -81,7 +81,7 @@ pytest
      2. Create folders and Upload input files.
         eg: "/FileStore/tables/asos_data/movies/20220306/movies.csv"
      
-   ##### * Import Notebooks on Databricks Workspace.
+   ##### • Import Notebooks on Databricks Workspace.
 
 
       1. Import the Notebooks from Github Data Ingestion folder and Util folder
