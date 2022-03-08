@@ -7,13 +7,14 @@ and Transformation for processing the analysis on the data.
 
 ## Table of contents
 * [Installation](#Installation)
-* [Building and Running Pyspark Project Locally](#Running PySpark Local Env)
+* [Build and Run Pyspark On Local Env](#Build and Run Pyspark On Local Env)
 * [PySpark Databricks](#PySpark Databricks)
 * [Contact](#Contact)
 
 <hr>
 
 ## Installation
+
 Use any IDE like PYCHARM or VSCODE. Pycharm used here.
 1. Create a Virtual Environment and Install the packages. 
 
@@ -26,7 +27,7 @@ pip install pytest
 ```
 <hr>
 
-## Running PySpark Local Env
+## Build and Run Pyspark On Local Env
  #### Project Structure
 ```
 spark-poc/
