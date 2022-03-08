@@ -65,7 +65,7 @@ pytest
 ```
 <hr>
 
-##PySpark Databricks Notebooks
+## PySpark Databricks Notebooks
 
 #### View the Databricks Notebooks on Github
 
